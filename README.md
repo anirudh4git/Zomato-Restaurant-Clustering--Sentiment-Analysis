@@ -1,2 +1,2 @@
 # Zomato-Review-Sentniment-Analysis
-Analyzing real reviews given on Zomato.
+Divided restaurants into segments using clustering analysis and also did sentiment analysis for the reviews.
