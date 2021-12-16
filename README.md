@@ -5,10 +5,6 @@ _**First, I used KMeans clustering to cluster the restaurant based on cost, diff
 
 _**Also this project focussed on Customers and Company, I analyzed the sentiments of the reviews given by the customer in the data and made some useful conclusion in the form of Visualizations. Basically the Sentiment analysis**_
 
-The Analysis also solve some of the business cases that can directly help the customers finding the Best restaurant in their locality and for the company to grow up and work on the fields they are currently lagging in. Also the data has valuable information around cuisine and costing which can be used in cost vs. benefit analysis.
-
-Also the metadata of reviewers can be used for identifying the critics in the industry. 
-
 #### -- Project Status: [Completed]
 
 ## Objective<br>
