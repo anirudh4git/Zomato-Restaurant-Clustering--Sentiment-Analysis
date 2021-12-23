@@ -1,9 +1,10 @@
 # Zomato-Review-Sentniment-Analysis
-Divided restaurants into segments using clustering techniques and also did sentiment analysis for the reviews.
 
 _**First, I used KMeans clustering to cluster the restaurant based on cost, different cuisines, locality and meta-tags. Once a similar clusters of restaurants formed, I tried to analyse various clusters and look for some trend in the data.**_
 
 _**Also this project focussed on Customers and Company, I analyzed the sentiments of the reviews given by the customer in the data and made some useful conclusion in the form of Visualizations. Basically the Sentiment analysis**_
+
+![image](https://user-images.githubusercontent.com/88626478/147269768-17479894-a335-4efd-83e6-8e220e1ec461.png)
 
 #### -- Project Status: [Completed]
 
@@ -56,11 +57,15 @@ The Zomato-Restaurants dataset comprises of 2 files.
 -Made many visualizations which include, top 10/bottom 10 restaurants in terms of average rating.
 -Had a clear understanding of the cost summary of the restaurants.
 -Done pre-processing such as removing emojis, punctuations and only used Adjectives and verbs to reduce dimensionality.
--TF-IDF vectorizer was used to transform the dataset
--Built several models such as Multinomial NB, Logistic regression, Random forest classifier etc.
+-TF-IDF vectorizer was used to transform the dataset.
+-Used **TextBlob()** to do sentiment analysis. Got a rmse score of 0.88.
+-Prepared a word cloud for positive as well as negative phrases.
 
 ## Clustering
 -Calculated the time each Restaurant was opened weekly.
 -Did the pre-processing, Clubbed some cuisines together so that one-hot encoding would be possible.
 -Removed the unwanted variables and Normalized the data.
 -Clustered the data using K-means as well as Hierarchical clustering.
+
+## Conclusions
+Divided restaurants into segments using clustering techniques and also did sentiment analysis for the reviews.
